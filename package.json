@@ -1,0 +1,37 @@
+{
+  "name": "fontmin-wawoff2",
+  "version": "0.0.1",
+  "description": "woff2 fontmin plugin",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout=50000"
+  },
+  "license": "MIT",
+  "repository": "junmer/fontmin-wawoff2",
+  "author": "junmer",
+  "files": [
+    "lib",
+    "index.js"
+  ],
+  "keywords": [
+    "font",
+    "woff",
+    "woff2",
+    "wawoff2",
+    "fontmin"
+  ],
+  "dependencies": {
+    "b3b": "^0.0.1",
+    "replace-ext": "^1.0.0",
+    "through2": "^2.0.1",
+    "wawoff2": "git+https://github.com/junmer/wawoff2.git",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "is-woff2": "^1.0.0",
+    "del": "^2.2.0",
+    "fontmin": "^0.9.6",
+    "mocha": "^2.1.0",
+    "vinyl-fs": "^2.3.1"
+  }
+}
