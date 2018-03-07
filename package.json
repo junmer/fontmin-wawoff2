@@ -7,7 +7,7 @@
     "test": "mocha --timeout=50000"
   },
   "engines": {
-    "node": ">=5.0"
+    "node": ">=8.0"
   },
   "license": "MIT",
   "repository": "junmer/fontmin-wawoff2",
