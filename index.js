@@ -48,11 +48,9 @@ module.exports = function (opts) {
             this.push(file.clone(false));
         }
 
-        var ttfunit8 = Uint8Array.from(file.contents);
-
         // to woff2
         wawoff2
-            .compress(ttfunit8)
+            .compress(file.contents)
             .then(
                 function(out) {
                     file.path = replaceExt(file.path, '.woff2');
