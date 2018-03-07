@@ -1,6 +1,6 @@
 {
   "name": "fontmin-wawoff2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "woff2 fontmin plugin",
   "main": "index.js",
   "scripts": {
