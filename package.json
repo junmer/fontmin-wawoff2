@@ -27,7 +27,7 @@
     "b3b": "^0.0.1",
     "replace-ext": "^1.0.0",
     "through2": "^2.0.1",
-    "wawoff2": "git+https://github.com/junmer/wawoff2.git",
+    "wawoff2": "^1.0.1",
     "xtend": "^4.0.1"
   },
   "devDependencies": {
